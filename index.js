@@ -32,6 +32,6 @@ while(question !== 'quit' && question !== 'q'){
             console.log('You are female pensioner!');
         }
     }
-    question = prompt('Enter your age!');
+    question = prompt('Enter your age! To exit app: type "quit" or "q"');
 }
 console.log('You quit the app!');
