@@ -1,4 +1,4 @@
-let question = Number(prompt('Enter your age! To quit app: type "quit" or "q"'));
+let question = prompt('Enter your age! To quit app: type "quit" or "q".');
 
 while(question !== 'quit' && question !== 'q'){
     if(question > 0 && question <= 17){
